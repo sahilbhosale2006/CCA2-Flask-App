@@ -6,8 +6,9 @@ app = Flask(__name__)
 def home():
     return """
     <h1>CCA 2 - CI/CD Pipeline</h1>
-    <h2>Hello! Flask Application is Running.</h2>
-    <p>This application will be deployed using Jenkins, Docker and Kubernetes.</p>
+    <h2>Version 2 - Successfully Deployed!</h2>
+    <p>Updated using GitHub, Jenkins, Docker and Kubernetes.</p>
+    <p>Automated CI/CD Pipeline Demonstration.</p>
     """
 
 @app.route("/health")
